@@ -1,8 +1,8 @@
 # multi_strain_covid_model
-##Project Overview and Purpose
+## Project Overview and Purpose
 This project is provided to share the data and utility code for the paper "A mathematical model of COVID-19 with multiple variants of the virus under optimal control in Ghana," published in PLOS ONE.
 
-##Installation and Usage
+## Installation and Usage
 This code is written in MATLAB. To utilize the code, you need to have the Optimization Toolbox installed. Below are the instructions for each folder and file:
 
 - data folder: This folder contains the utilized data. The file Ghana_only_covid19_data.csv stores the data organized by the authors.
@@ -14,8 +14,8 @@ optimal_control.m: This code is for experimenting with optimal control. Variable
 - set_compartments.m: This file contains functions to load data belonging to the utilized compartments, preprocess them, and export them as output.
 - FitToODE.m: This code fits the data into the implemented differential equations in diffun.m. The Runge-Kutta 45 ode solver was used.
   
-##License
+## License
 Please check license.txt file
 
-##Contact
+## Contact
 Email: mathmyh@khu.ac.kr
